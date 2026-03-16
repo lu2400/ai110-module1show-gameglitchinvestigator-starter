@@ -26,12 +26,16 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+its a number guessing game. It has difficulty levels to set the attempt and number range limits. Once a game (or round) starts, a number is randomly generated ans the player has to guess the number using hints. The player is told to go higher or lower based on how close they are to the original number. 
 - [ ] Detail which bugs you found.
+The first bug I found was with the hints. The messages were swapped, so the game would tell you to go higher if your number was higher and vice versa. The secong bug was with the attempts count. Invalid guesses would count to your attempt even though you didn't make a meaningful guess.
 - [ ] Explain what fixes you applied.
+For the first bug, I switched the messages to correspond with how close guess was to secret. For the second bug, I moved the attempts counter into the else block, so it could only run for valid guesses.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 
