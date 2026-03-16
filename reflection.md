@@ -34,7 +34,7 @@ After verifying what it changed VERY carefully, it actually didn't do anything w
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
-
+i used the tests file to make sure the bugs i fixed worked as intended. i manually went to check the region of the error and used a pen and paper to map out the logic to make sure it was fixed successfully. I also checked the edits Clause made line by line to verify.
 ---
 
 ## 4. What did you learn about Streamlit and state?
