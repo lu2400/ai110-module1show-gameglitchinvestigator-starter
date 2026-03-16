@@ -24,6 +24,8 @@ AI let me know that the outcome labels were correct but the hint message was bac
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used Claude. When prompted with the bugs I had found myself, it pointed me to the specifics of why each bug didn't work. For example, i thought the attempts bug was just not counting down but it let me know it was buggy on even numbers.
+After verifying what it changed VERY carefully, it actually didn't do anything wrong or misleading. Granted, I had to check through everything it changed line by line. 
 ---
 
 ## 3. Debugging and testing your fixes
