@@ -8,7 +8,15 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
----
+1. the hints would give the wrong hint (saying to go low when the number was higher)
+the hints should accurately tell the user if to go higher or lower
+2. the attempts number not updating accurately (it wasn't counting for some of my attempts)
+number should accurately let the user know how many attempts they have left
+3. starting a new game doesnt reset or clear history
+starting a new game should clear the previous game's history
+
+i described the backwards hint bug 
+AI let me know that the outcome labels were correct but the hint message was backwards for a higher or lower guess relative to the actual number
 
 ## 2. How did you use AI as a teammate?
 
